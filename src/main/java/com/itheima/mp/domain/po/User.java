@@ -9,6 +9,7 @@ import com.itheima.mp.enums.UserStatus;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+/////222222222222
 
 @Data
 @TableName(value = "user", autoResultMap = true)    //加入autoResultMap保证类和数据库数据可以自动映射
