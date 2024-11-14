@@ -10,7 +10,11 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 //11111112222333
+<<<<<<< HEAD
+//2222222
+=======
 
+>>>>>>> 0ac3966 (代码修改01)
 @Data
 @TableName(value = "user", autoResultMap = true)    //加入autoResultMap保证类和数据库数据可以自动映射
 public class User {

@@ -19,7 +19,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: assign_id  #默认主键生成算法：雪花算法
-      update-strategy: not_null #更新策略：知更新非空字段
+      update-strategy: not_null #更新策略：只更新非空字段
       logic-delete-field: deleted # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
       logic-delete-value: 1 #逻辑已删除值（默认为1）
       logic-not-delete-value: 0 #逻辑为删除值（默认为0）
